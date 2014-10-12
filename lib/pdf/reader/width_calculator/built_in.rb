@@ -92,7 +92,8 @@ class PDF::Reader
         elsif control_character?(code_point)
           0
         else
-          raise ArgumentError, "Unknown glyphzzzz width for #{code_point} #{@font.basefont}"
+          12
+          #raise ArgumentError, "Unknown glyphzzzz width for #{code_point} #{@font.basefont}"
         end
       end
 
